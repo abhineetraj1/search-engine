@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Hextor</title>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link rel="shortcut icon" href="ico/3.jpg">
+	<style>
+		@keyframes anim{from{transform:rotateY(0deg) rotateX(0deg);background:white;color:black;}to{transform:rotateY(30deg) rotateX(-30deg);background:black;color:white;}}
+		body{padding:0px;margin:0px;}
+		#tt{background:#42F986;height:7vh;width:100%;text-align:right;}
+		#l{background:white;height:5vh;font-size:3vh;border-width:0;margin:1vh;border-radius:10px;}
+		p{font-size:6vh;color:black;text-align:center;font-family:cursive;}
+		input{border:solid;width:80%;border-radius:10px 0px 0px 10px;height:7vh;font-size:3vh;float:left;}
+		form{text-align:center;padding:0;margin:0:}
+		#btn{background:#42F986;margin:0;border:solid;font-size:3vh;height:7vh;width:20%;border-radius:0px 10px 10px 0px;float:right;}
+		#l:hover{animation-name:anim;animation-duration:1s;transform:rotateY(30deg) rotateX(-30deg);background:black;color:white;}
+		#ty{height:4vh;width:70%;margin:0;}
+		#tty{font-size:5vh;text-align:left;float:left;margin:1vh;}
+		#btm{bottom:2vh;position:fixed;width:100%;text-align:center;}
+		a{color:blue;font-size:3vh;}
+		@keyframes ds{from{color:blue;}to{color:violet;}}
+		@keyframes dsa{from{background:#42F986;}to{background:#00A700;}}
+		#btn:hover{animation-name:dsa;animation-duration:1s;background:#00A700;}
+		a:hover{animation-name:;animation-duration:1s;color:violet;}
+	</style>
+</head>
+<body>
+<div id="tt">
+	<n id="tty">Hextor</n>
+	<a href="/about"><button id="l">About</button></a>
+</div>
+<div id="cn">
+<br>
+	<p>Search Anything!!</p>
+	<form action="/" method="POST">
+	<center>
+		<p id="ty"><input name="search" title="Search anything"><button id="btn" title="Click to search">-></button></p>
+	</center>
+	</form>
+</div>
+<div id="btm">
+	<a title="Contact us" href="/contact">Contact</a> | 
+	<a title="Report your issue"  href="/report">Report</a> | 
+	<a title="Your feedback will be benefitial for us!!"  href="/feedback">Feedback</a>
+</div>
+</body>
+</html>

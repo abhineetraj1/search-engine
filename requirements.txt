@@ -1,0 +1,2 @@
+Flask==1.0.2
+wikipedia==1.4.0
