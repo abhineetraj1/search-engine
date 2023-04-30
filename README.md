@@ -1,5 +1,5 @@
-# search-engine
-Privacy focused search engine, supported by wikipedia
+# Search engine
+Privacy focused search engine, supported by wikipedia datasets
 
 ## Installation
 First install python3.6 in your respective system

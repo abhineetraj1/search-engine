@@ -1,0 +1,36 @@
+#fg{
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: Cambria Math;
+}
+p{
+	text-align: center;
+}
+input{
+	width: 80%;
+	border-radius: 10px 0px 0px 10px;
+	border: solid;
+	font-family: Bahnschrift;
+	font-size: 20px;
+}
+#fg:hover{
+	box-shadow: 0px 0px 5px black;
+}
+button{
+	background: #2c72ff;
+	color: white;
+	font-size: 24px;
+	border: solid;
+	border-width: 0px;
+	font-family: Bahnschrift;
+	border-radius: 0px 10px 10px 0px;
+}
+#des{
+	width: 90%;
+	position: relative;
+	left: 5%;
+	margin-top: 1vh;
+	font-size: 20px;
+	font-family: Cambria Math;
+}
